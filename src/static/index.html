@@ -21,17 +21,24 @@
         </div>
       </section>
 
+      <section id="calendar-container">
+        <h3>Activity Calendar</h3>
+        <div id="calendar" aria-live="polite">
+          <p>Loading calendar...</p>
+        </div>
+      </section>
+
       <section id="signup-container">
-        <h3>Sign Up for an Activity</h3>
+        <h3>Sign Up</h3>
         <form id="signup-form">
           <div class="form-group">
             <label for="email">Student Email:</label>
             <input type="email" id="email" required placeholder="your-email@mergington.edu" />
           </div>
           <div class="form-group">
-            <label for="activity">Select Activity:</label>
+            <label for="activity">Select Activity or Event:</label>
             <select id="activity" required>
-              <option value="">-- Select an activity --</option>
+              <option value="">-- Select an activity or event --</option>
               <!-- Activity options will be loaded here -->
             </select>
           </div>
